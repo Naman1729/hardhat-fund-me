@@ -109,8 +109,8 @@ contract FundMe {
         return i_owner;
     }
 
-    function getFunder(uint256 funderIndex) public view returns (address) {
-        return s_funders[funderIndex];
+    function getFunder(uint256 _funderIndex) public view returns (address) {
+        return s_funders[_funderIndex];
     }
 
     function getAddressToAmountFunded(
